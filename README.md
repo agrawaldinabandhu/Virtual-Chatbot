@@ -36,9 +36,9 @@ A voice and text-based intelligent assistant with a stylish GUI, capable of chat
    cd virtual-robot-assistant
 
 2. Install Required Libraries (cmd or bash)
-# pip install -r requirements.txt
+  pip install -r requirements.txt
 If requirements.txt is not available, manually install:
-# pip install pyttsx3 SpeechRecognition wikipedia requests pillow
+  pip install pyttsx3 SpeechRecognition wikipedia requests pillow
 
 3. Add Required Files
  *Place a robot GIF named robot.gif in the root folder (for animated assistant).
@@ -50,7 +50,7 @@ If requirements.txt is not available, manually install:
      OPENWEATHER_API_KEY = "your-openweather-api-key"
 
 5. Running the Assistant
-   # python your_script_name.py
+    python your_script_name.py
    
 7. Usage
  *Type or speak your queries (click 🎤 Voice)
@@ -59,8 +59,9 @@ If requirements.txt is not available, manually install:
 8. Saving the chat:
    *Click the 💾 Save button to store the chat history in a chat_history.json file.
 
-@ A Screenshot of the Interface:
-![Screenshot (1)](https://github.com/user-attachments/assets/6d3821f5-2f03-4143-bacc-135766776a6e)
+# A Screenshot of the Interface:
+![Screenshot (1)](https://github.com/user-attachments/assets/71709032-0099-461d-ba21-0fd5f07069fa)
+
 
 This project is open-source and free to use for educational purposes.
 
