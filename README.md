@@ -37,7 +37,7 @@ A voice and text-based intelligent assistant with a stylish GUI, capable of chat
 
 2. Install Required Libraries (cmd or bash)
   * pip install -r requirements.txt
-/ If requirements.txt is not available, manually install:
+2(a).If requirements.txt is not available, manually install:
   * pip install pyttsx3 SpeechRecognition wikipedia requests pillow
 
 3. Add Required Files
@@ -46,8 +46,8 @@ A voice and text-based intelligent assistant with a stylish GUI, capable of chat
 
 4. Add Your API Keys
  * Open the .py file and replace with:
-     GEMINI_API_KEY = "your-gemini-api-key"
-     OPENWEATHER_API_KEY = "your-openweather-api-key"
+     * GEMINI_API_KEY = "your-gemini-api-key"
+     * OPENWEATHER_API_KEY = "your-openweather-api-key"
 
 5. Running the Assistant
     * python your_script_name.py
