@@ -30,21 +30,16 @@ A voice and text-based intelligent assistant with a stylish GUI, capable of chat
 
 ## 🔧 Installation
 
-1. **Clone the Repository**
-   ```bash
-   git clone https://github.com/your-username/virtual-robot-assistant.git
-   cd virtual-robot-assistant
-
-2. Install Required Libraries (cmd or bash)
+1. Install Required Libraries (cmd or bash)
   * pip install -r requirements.txt
-3. If requirements.txt is not available, manually install:
+2. If requirements.txt is not available, manually install:
   * pip install pyttsx3 SpeechRecognition wikipedia requests pillow
 
-4. Add Required Files
+3. Add Required Files
  * Place a robot GIF named robot.gif in the root folder (for animated assistant).
  * Ensure you have a working microphone for voice input.
 
-5. Add Your API Keys
+4. Add Your API Keys
  * Open the .py file and replace with:
      * GEMINI_API_KEY = "your-gemini-api-key"
      * OPENWEATHER_API_KEY = "your-openweather-api-key"
